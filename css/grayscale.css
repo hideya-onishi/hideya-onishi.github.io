@@ -1,0 +1,803 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family:“Times New Roman”, “游明朝”, YuMincho, “ヒラギノ明朝 ProN W3”, “Hiragino Mincho ProN”, “メイリオ”, Meiryo, serif;
+     background: url(../sozai/b_bg.jpg) ;
+     background-size: 300px 300px;
+    /*background-color: #000;*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: “Times New Roman”, “游明朝”, YuMincho, “ヒラギノ明朝 ProN W3”, “Hiragino Mincho ProN”, “メイリオ”, Meiryo, serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 1px #999999;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.text p{
+    text-shadow:2px 2px 1px #7397b6;
+}
+
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #42dca3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Times New Roman”, “游明朝”, YuMincho, “ヒラギノ明朝 ProN W3”, “Hiragino Mincho ProN”, “メイリオ”, Meiryo, serif;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }}
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }}
+
+
+.snsb li{
+    position: relative;
+    top: 500px;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../sozai/top_bg2.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+    /*background-color: rgba(0,0,0,0.5);*/
+    border-radius:10px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro-text{
+        background-color: rgba(0,0,0,0.5);
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 90px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }}
+
+.snsb{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#about {
+    background: url(../sozai/second_bg.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    background-position: top;
+    width:100%;
+}
+
+#about p{
+    font-size: 28px;
+    color: #fff;
+    line-height: 55px;
+}
+
+.content-section{
+    margin:0 auto;
+    width: 80%;
+    background-color: rgba(255,255,255,0.8);
+    padding-bottom: 110px;
+}
+
+.content-section  h2{
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 55px;
+    margin-top: 120px;
+}
+
+.content-section  p{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 55px;
+}
+
+
+.content-section h1{
+    font-size: 60px;
+    margin-top: 123px;
+    margin-bottom: 60px;
+    color: #333333;
+    font-weight:100;
+}
+
+.content-section img{
+    width:75%;
+    height: 50%;
+    border-radius:20px;
+}
+
+.content-section h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #333333;
+    font-weight:100;
+    text-shadow:none;
+}
+
+.content-section p{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #333333;
+    font-weight:100;
+    text-shadow:none;
+    line-height: 31.7px;
+}
+
+.box{
+    width: 100%;
+    background: url(../sozai/Fotolia_70307349_Subscription_Monthly_M.jpg)
+         no-repeat  ;
+    background-size: cover; 
+}
+
+#contact-2{
+    padding-top: 100px;
+}
+
+.box img{
+    width: 65%;
+    height:65%;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+
+.box h4{
+    font-size: 26px;
+}
+
+
+.box span{
+    background-color: #ffe347;
+}
+
+.content-second{
+    margin:0 auto;
+    width: 80%;
+    /*height: 1010px;*/
+    background-color: rgba(255,255,255,0.8);
+    padding-bottom: 20px;
+}
+
+.content-second h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #333333;
+    font-weight:100;
+    line-height: 60px;
+}
+
+.content-second h3{
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #333333;
+    font-weight:100;
+    text-shadow:none;
+}
+
+.content-second p{
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.photo-box{
+    background: url(../sozai/fifth_bg.png)
+         no-repeat  ;
+    background-size: cover; 
+}
+
+.photo-box h1{
+    font-size: 43px;
+    color: #fff;
+    margin-top: 230px;
+}
+.photo-box img{
+    width: 99%;
+    height: 99%;
+}
+
+.photo-box p{
+    font-size: 14px;
+    text-align: left;
+}
+
+.icon{
+    width: 100%;
+    background:linear-gradient(#895626,#331c08);
+}
+
+.icon h1{
+font-size: 28px;
+    color: #fff;
+    margin-top: 120px;
+}
+
+.icon img{
+    width: 90%;
+}
+
+.icon span{
+    color: #333333;
+    background-color: 
+    #fee246
+}
+.icon-text{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 12px;
+    margin-bottom:12px;
+    padding: 20px 0;
+    background-color: #333333;
+    font-size: 20px;
+    color: white;
+}
+
+.schedule{
+    width: 90%;
+    margin:0 auto;
+     color: #000;
+    font-size: 18px;
+    background-color: #ededed;
+    border-collapse: collapse;
+    margin-bottom: 120px;
+}
+
+
+
+td{
+    border-top:1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    line-height: 36px;
+
+}
+
+.active{
+    background-color: #dff0d8;
+}
+
+.faq{
+    width: 100%;
+    margin:0 auto;
+    background:url(../sozai/fourth_bg.jpg)
+    no-repeat;
+    background-size: cover;
+}
+
+.faq-2{
+    background-color:rgba(255,255,255,0.5);
+}
+
+.faq h1{
+    margin-top:220px;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.faq h2 {
+    margin-bottom:10px;
+    background-color:rgba(255,255,255,0.5);
+    color: #d0451b;
+    font-size: 33px;
+    text-align: left;
+    border-left:4px solid #d0451b;
+    text-shadow:none;
+}
+
+.faq p{
+     background-color:rgba(255,255,255,0.5);
+     border-radius: 10px;
+     text-align: left;
+     font-size: 16px;
+     padding:10px 0;
+     margin-bottom: 45px;
+}
+
+.faq span{
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#contact-5{
+    width: 80%;
+}
+
+.form-text{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding-bottom:190px;
+}
+
+.form-text h1{
+    font-size: 70px;
+    margin-top: 210px;
+}
+
+.form-text h5{
+    font-size: 25px;
+    margin-top: 61px;
+    margin-bottom: 7px;
+}
+
+.form-text p{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.form-text h3{
+    margin-bottom:10px;
+    font-size: 28px;
+    color: #d0451b;
+    text-shadow:none;
+}
+
+.form-text i{
+    color: #d0451b;
+}
+
+.active-1{
+    background-color: #f5f5d9;
+}
+
+.active-2{
+    background-color: #ededed;
+}
+
+.flow{
+    width: 65%;
+    margin:0 auto;
+    background-color: #fff;
+    border: 3px dotted #d0451b;
+    line-height: 60px;
+
+}
+
+.form-table-2{
+    width: 65%;
+    color: #000;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: #ededed;
+    border-collapse: collapse;
+    margin-bottom: 22px;
+}
+
+.free{
+    padding-bottom: 30px;
+}
+
+.top-flow h5{
+    margin-top: 10px;
+}
+
+.top-flow i{
+    font-size: 45px;
+    height: 38px;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+}
+
+.container li{
+    list-style: none;
+    float: left;
+    margin-right:5px;
+}
+.container img{
+    width: 180px;
+}
+
+.com-1{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.com-2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.com-3 {
+    text-align: center;
+    color: #fff;
+}
+
+.com td{
+    color: #FFF;
+    border: 0;
+    text-align: center;
+}
+
+
+@media(min-width:767px) {
+    .content-section {
+    }
+    .download-section {
+        padding: 100px 0;
+    }}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #42dca3;
+    outline: 0;
+    color: #000;
+    background-color: #42dca3;
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.myButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+    background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+    background-color:#d0451b;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    padding:5px 80px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #854629;
+   
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+    background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+    background-color:#bc3315;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.myButton-b {
+    -moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+    -webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+    background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+    background-color:#2dabf9;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #0b0e07;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    padding:7px 21px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+.myButton-b:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+    background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+    background-color:#0688fa;
+}
+.myButton-b:active {
+    position:relative;
+    top:1px;
+}
+
+
+
